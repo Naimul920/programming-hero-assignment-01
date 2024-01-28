@@ -1,5 +1,5 @@
 /**** Global styles ****/
-main{
+main {
     max-width: 1320px;
     margin: 0px auto;
 }
@@ -7,25 +7,27 @@ main{
 
 
 /** banner styles **/
-.banner{
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../resources/Banner\ Image.png');
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     height: 600px;
     border-radius: 16px;
     background-repeat: no-repeat;
     position: relative;
 }
-.banner-continer{
+
+.banner-continer {
     padding: 177px 344px 177px 344px;
 }
 
-.banner-continer h3{
+.banner-continer h3 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    font-weight: 400;  
+    font-weight: 400;
 }
-.banner-continer h1{
+
+.banner-continer h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -36,35 +38,40 @@ main{
 
 /*** offer section ***/
 
-.offer-continer{
+.offer-continer {
     margin-top: 120px;
     text-align: center;
 }
-.offer-continer h1{
+
+.offer-continer h1 {
     color: #f00;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
 }
-.offer-continer p{
+
+.offer-continer p {
     color: #f00;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 1px;
 }
-.offer-continer h3{
+
+.offer-continer h3 {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
     margin-top: 0px;
 }
+
 /****banner continer*****/
 
-.banner-two{
+.banner-two {
     margin: 120px 0px;
 }
-.banner-two{
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Group 70.png'),url('../resources/Vectorrr.png');
+
+.banner-two {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Group 70.png'), url('../resources/Vectorrr.png');
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
@@ -72,10 +79,12 @@ main{
     background-position-y: 50%;
     border-radius: 10px;
 }
-.banner-two-continer{
-    padding:126px 497px 142px 126px;
+
+.banner-two-continer {
+    padding: 126px 497px 142px 126px;
 }
-.banner-two-continer h1{
+
+.banner-two-continer h1 {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
@@ -83,14 +92,15 @@ main{
     margin-bottom: 20px;
 }
 
-.banner-two-continer p{
+.banner-two-continer p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
     width: 580px;
     margin-top: 0px;
 }
-.btn-primary{
+
+.btn-primary {
     background: #f00;
     border-radius: 8px;
     padding: 16px 32px;
@@ -102,14 +112,14 @@ main{
 
 /**** Information styles *****/
 
-.information{
+.information {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 482px;
     text-align: center;
     padding: 100px 385px 110px 385px;
 }
 
-.information-continer p{
+.information-continer p {
     color: #070211;
     text-align: center;
     font-size: 32px;
@@ -117,69 +127,79 @@ main{
     line-height: 56px;
     text-transform: capitalize;
 }
-.information-continer span{
+
+.information-continer span {
     color: #f00;
 }
 
 /** Best offer styles **/
 
-.best-offer{
+.best-offer {
     display: flex;
     gap: 150px;
     margin-top: 20px;
 
 }
-.col-1{
+
+.col-1 {
     padding: 80px 0px 50px 0px;
     width: 440px;
 }
-.col-1 h3{
+
+.col-1 h3 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.col-1 h1{
+
+.col-1 h1 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
-.col-1 p{
+
+.col-1 p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
 }
-.col-2{
+
+.col-2 {
     width: 440px;
 }
 
-.col-2-shap{
+.col-2-shap {
     width: 463px;
     height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
     position: relative;
 }
-.col-2-shap img{
+
+.col-2-shap img {
     position: relative;
     left: 50px;
     top: 50px;
 }
-.col-3{
+
+.col-3 {
     padding: 80px 0px 50px 0px;
     width: 440px;
 
 }
-.col-3 h3{
+
+.col-3 h3 {
     color: #F00;
     font-size: 48px;
     font-weight: 700;
     font-family: Inter;
     margin-bottom: 5px;
 }
-.col-3 p{
+
+.col-3 p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -187,19 +207,24 @@ main{
     line-height: 32px;
     margin-bottom: 20px;
 }
-.discount{
+
+.discount {
     margin-top: 120px;
+    max-height: 600px;
 }
-.discount-contner h3{
+
+.discount-contner h3 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.discount-contner{
+
+.discount-contner {
     text-align: center;
 }
-.discount-contner h1{
+
+.discount-contner h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -207,25 +232,47 @@ main{
     margin-bottom: 5px;
     margin-top: 5px;
 }
-.discount-contner span{
+
+.discount-contner span {
     color: #F00;
 }
-.discount-contner p{
+
+.discount-contner p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0px 200px 5px 200px;
+}
+
+.discount-img-group {
+    background-image: url('../resources/Rectangle 1.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: right;
+}
+
+.discount-img-one {
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 80px;
+}
+
+.discount-img-two {
+    position: relative;
+    left: 220px;
+}
+
+
+
+.gift-continer h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */
-    padding: 0px 126px 64px 126px;
+    line-height: normal;
 }
-.discount-img{
-    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 3.png'), url('../resources/Rectangle\ 4.png');
-    position: relative;
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-position-y:90% ;
-
-}
-
-
