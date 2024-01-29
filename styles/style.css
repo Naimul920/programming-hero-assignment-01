@@ -365,3 +365,63 @@ main {
     padding: 24px 56px 24px 56px;
     margin-top: 20px;
 }
+
+.footer {
+    background-color: #070211;
+}
+
+.footer-continer {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.row-1 {
+    display: flex;
+    gap: 500px;
+}
+
+.footer-address p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    position: top right;
+    padding: 120px 0px 0px 0px;
+}
+
+.footer-number p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 120px 50px 0px 20px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    margin: 10px;
+}
+
+.address-reserved p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 120px 50px 120px 0px;
+}
+
+.unsubscribe p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 120px 50px 120px 300px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 600px;
+}
